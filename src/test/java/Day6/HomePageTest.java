@@ -27,6 +27,11 @@ public class HomePageTest {
         Reporter.log("Driver Closed After Testing");
     }
 
+    @Test  //Success Test
+    public void ValidateBrowser() {
+        Reporter.log("Validate browser");
+    }
+
     @Test //Failed Test
     public void OpenBrowser() {
 
