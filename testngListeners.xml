@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ListenerExecution" parallel="classes">
+    <listeners>
+        <listener class-name = "Day6.TestNGListener"></listener>
+    </listeners>
+
+    <test name="ExecutingListeners">
+        <classes>
+            <class name="Day6.HomePageTest"></class>
+            <class name="Day4.TestNGAssertsExample"></class>
+        </classes>
+    </test>
+
+
+</suite>

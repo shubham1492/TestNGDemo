@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+    <groups>
+        <run>
+            <include name="sanity"></include>
+            <exclude name="smoke"></exclude>
+            <include name="smoke.*"></include>
+            <include name="SignIn"></include>
+        </run>
+    </groups>
+    <test name="ToolsQA" >
+        <classes>
+            <class name="Day2.TestNgGroup" />
+        </classes>
+    </test>
+</suite>
